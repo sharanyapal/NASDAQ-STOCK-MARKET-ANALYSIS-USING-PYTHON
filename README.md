@@ -1,3 +1,45 @@
+<div align="center">
+
+# NASDAQ-STOCK-MARKET-ANALYSIS-USING-PYTHON
+
+**Stock time series, statistical analysis and predictive modeling.**
+
+<sub>Finance · Python &nbsp; · &nbsp; Code and reproducibility notes &nbsp; · &nbsp; Project archive</sub>
+
+</div>
+
+---
+
+## Project snapshot
+
+Program Overview This project is a financial analytics project developed by my team (3 individuals) in the first semester of my master’s program in Business Analytics. The project was designed to allow advanced Business Analysts without programming knowledge to consult, analyse, and model stock time series. Descriptive and Predictive analytics were utilized to provide the possibility of searching for specific stocks, and querying specified time ranges along with associated analysis, such as statistical descriptions of prices and/or volume (mean, median, range, etc), technical indicators, visualisation (of the raw
+
+## Key areas
+
+- Inspect the included source code and sample data.
+- Reproduce the project workflow locally.
+- Extend or test the behavior from an isolated development environment.
+
+## Getting started
+
+Run the documented Python entry point only after reviewing the included dataset files and required packages. See the preserved documentation for dependencies.
+
+## Where to look
+
+| Path | Contents |
+|:--|:--|
+| [`AAPL.csv`](./AAPL.csv) | Example input dataset |
+| [`MSFT.csv`](./MSFT.csv) | Example input dataset |
+| [`README.md`](./README.md) | Project description and setup |
+| [`nasdaq.csv`](./nasdaq.csv) | Example input dataset |
+| [`stock_market.py`](./stock_market.py) | Analysis source |
+
+## Provenance & boundaries
+
+Historical market data and model output are for exploration only; no returns or forecasting accuracy are guaranteed. References or tutorial links in the original documentation are retained as citations to their sources; they do not imply that third-party work was developed independently.
+
+<details><summary><strong>Original README and setup details</strong></summary>
+
 # NASDAQ-STOCK-MARKET-ANALYSIS-USING-PYTHON
 Program Overview
 This project is a financial analytics project developed by my team (3 individuals) in the first semester of my master’s program in Business Analytics. The project was designed to allow advanced Business Analysts without programming knowledge to consult, analyse, and model stock time series. Descriptive and Predictive analytics were utilized to  provide the possibility of searching  for specific stocks, and querying specified time ranges along with associated analysis, such as statistical descriptions of prices and/or volume (mean, median, range, etc), technical indicators, visualisation (of the raw data, but also of transformations, such as moving averages), and even basic modelling (such as regression) as users can employ the program to predict future prices of various companies’ stocks to better decide what stocks to trade within a range of period.
@@ -65,7 +107,8 @@ Please follow up through the instructions of the program whenever you want to go
 UML Diagram
 The UML diagram can be seen in the 'read-me.pdf'
 
+</details>
 
+---
 
-
-
+<sub>Explore the [Sharanya Pal code portfolio](https://github.com/sharanyapal?tab=repositories).</sub>
